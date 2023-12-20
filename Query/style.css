@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(44, 44, 141);
+
+}
+
+.button {
+    background-color: aqua;
+}
+
+@media only screen and  (max-width:320px) {
+    body {
+        background-color: brown;
+    }
+
+   
+}
+@media only screen and (max-width:425px) and (min-width:320px) {
+    body {
+        background-color: rgb(209, 49, 209);
+    }
+
+   
+}
+
+/* @media only screen and (max-width:300px) {
+    body {
+        background-color: brown;
+    }
+
+    .button {
+        display: none;
+
+    }
+} */
+/* @media only screen and (min-width:500px) and (max-width:800px) {
+    body {
+        background-color: rgb(46, 165, 42);
+    }
+
+   
+} */

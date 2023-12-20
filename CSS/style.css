@@ -1,0 +1,83 @@
+.title-2 {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+}
+
+#asfd1 {
+    background-color: bisque;
+}
+
+/* type selector*/
+h2 {
+    background-color: rgb(184, 184, 15);
+
+}
+
+/* class selector */
+
+.title-1 {
+
+    background-color: rgb(2, 27, 27);
+    color: aquamarine;
+}
+
+/* id selector */
+#acpt-2 {
+    background-color: chartreuse;
+    padding: 10px;
+    border: 2px;
+}
+
+/* child selector */
+body>h5 {
+    background-color: rgb(41, 48, 29);
+    padding: 10px;
+    color: white;
+}
+
+div>p {
+    background-color: fuchsia;
+    color: white;
+}
+
+/* universal selector */
+/* * { */
+    /* margin: 0; */
+    /* border: 2px solid black; */
+/* } */
+
+/* box model */
+.box-container {
+    background-color: aqua;
+    width: 600px;
+}
+
+.box-model {
+    background-color: coral;
+    margin: 10px;
+    border: 30px solid black;
+    padding: 20px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.button{
+background-color: rebeccapurple;
+border: none;
+padding: 10px;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+.button:hover{
+    background-color: chocolate;
+
+}
+#name{
+background-color: blue;
+
+}
+.name2{
+background-color: blueviolet !important;
+
+}

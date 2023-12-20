@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Event</title>
+</head>
+<body>
+   <h1>Event</h1> 
+   <div class="card w-50">
+    <div class="card-body">
+        <input  type="number" class="form-control mb-1" id="test-1"  placeholder="input Number 1">
+        <input  type="number" class="form-control" id="test-2"  placeholder="input Number 2">
+        <h3 class="text-center m-2" id="display-1">Display-1</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" equal ()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+  </div>
+  
+<hr>
+<!-- enter 2 values -->
+<!-- result>equal or not equal -->
+
+<div class="card w-50">
+    <div class="card-body">
+        <input  type="text" class="form-control mb-1" id="test-3"  placeholder="input text 1">
+        <input  type="text" class="form-control" id="test-4"  placeholder="input Text 2">
+        <h3 class="text-center m-2" id="display-2">Display-2</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" checkCondition  ()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+  </div>
+  <hr>
+
+  <!-- enter 2 numbers -->
+  <!-- 1st value < 2nd value =>greater than -->
+  <!-- 1st value ==2nd value => equal -->
+  <!-- else =>less than -->
+  <div class="card w-50">
+    <div class="card-body">
+        <input  type="number" class="form-control mb-1" id="test-5"  placeholder="input Number 1">
+        <input  type="number" class="form-control" id="test-6"  placeholder="input Number 2">
+        <h3 class="text-center m-2" id="display-3">Display-3</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" checkCondition2()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+  </div>
+  <!-- addition -->
+  <div class="card w-50">
+    <div class="card-body">
+        <input  type="number" class="form-control mb-1" id="test-7"  placeholder="input Number ">
+       
+        <h3 class="text-center m-2" id="display-4">Display-4</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" addition()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+</div>
+<hr>
+
+<!-- enter marks -->
+<!-- m>=75=A -->
+<!-- m>=65=B -->
+<!-- m>=45=C -->
+<!-- m>=35=S -->
+<!-- fail -->
+<div class="card w-50">
+    <div class="card-body">
+        <input  type="number" class="form-control mb-1" id="test-8"  placeholder="input Number ">
+       
+        <h3 class="text-center m-2" id="display-5">Display-5</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" checkMarks()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+</div>
+<hr>
+<!-- short name input -->
+<!-- intern =>Intern Software Engineer -->
+<!-- ase =>Associate Software Engineer  -->
+ <!-- se =>Software Engineer  -->
+ <!-- sse => Senior Software Engineer  -->
+ <!-- atl =>Assistant Tech Lead  -->
+ <!-- tl => Tech Lead  -->
+ <!-- Error key word...  -->
+
+ <div class="card w-50">
+    <div class="card-body">
+        <input  type="text" class="form-control mb-1" id="test-9"  placeholder="input Your Job ">
+       
+        <h3 class="text-center m-2" id="display-6">Display-6</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" checkJob()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+</div>
+<hr>
+<!-- text input -->
+<!-- submit print  c,h,a,m -->
+<div class="card w-50">
+    <div class="card-body">
+        <input  type="text" class="form-control mb-1" id="test-10"  placeholder="input Your Text ">
+       
+        <h3 class="text-center m-2" id="display-7">Display-7</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick=" getinput()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+            
+        </div>
+        
+    </div>
+</div>
+<hr>
+<!-- user number input -->
+<!-- push array  -->
+<!-- print =>print array  -->
+<div class="card w-50">
+    <div class="card-body">
+        <input  type="number" class="form-control mb-1" id="test-11"  placeholder="input numbers ">
+       
+        <h3 class="text-center m-2" id="display-8">Display-8</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick="arrayPush() " type="button" class="btn btn-primary w-25 m-2">Push</button>
+            <button onclick=" arrayPrint()" type="button" class="btn btn-primary w-25 m-2">Submit</button>
+        </div>
+        
+    </div>
+</div>
+<hr>
+<!-- uName = Admin  -->
+<!-- upass =1234W  -->
+<!-- user name password input  -->
+<!-- display login success  -->
+<!-- display login fail  -->
+<div class="card w-50">
+    <div class="card-body">
+        <input  type="text" class="form-control mb-1" id="test-12"  placeholder="input username ">
+        <input  type="text" class="form-control mb-1" id="test-13"  placeholder="input password ">
+        <h3 class="text-center m-2" id="display-9">Display-9</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick="login() " type="button" class="btn btn-primary w-25 m-2">Login</button>
+           
+        </div>
+        
+    </div>
+</div>
+<hr>
+<!-- display  -->
+<!-- input 2 disable -->
+<!-- random numbers 2k  -->
+<!-- button click num1+num2  -->
+
+<div class="card w-50">
+    <div class="card-body">
+        <input  disabled type="text" class="form-control mb-1" id="test-14"  >
+        <input disabled type="text" class="form-control mb-1" id="test-15" >
+        <h3 class="text-center m-2" id="display-10">Display-10</h3>
+
+        <div class="d-flex justify-content-center">
+            <button onclick="AditionNumbers() " type="button" class="btn btn-primary w-25 m-2">Addition</button>
+           
+        </div>
+        
+    </div>
+
+</div>
+
+<hr>
+<!-- get random no 50 -->
+<!-- input 1 number  -->
+<!-- devide by input nuber in random numbers  -->
+<!-- print deviding numbers  -->
+<div class="card w-50">
+    <div class="card-body m-2 p-2">
+        <h6 class="text-center m-2" id="random-display"></h6>
+        <input   type="numbers" class="form-control mb-1" id="test-16"  >
+      
+      
+        <div class="d-flex justify-content-center">
+            <button onclick="randomGenarate() " type="button" class="btn btn-primary w-25 m-2">Genarate</button>
+           
+        </div>
+        <h5 class="text-center m-2" id="display-11">Display</h5>
+
+    </div>
+    
+</div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="index.js" type="text/JavaScript"></script>
+</body>
+</html>

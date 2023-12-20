@@ -1,0 +1,38 @@
+ /* .animation{
+width: 200px;
+height: 200px;
+background-color: red;
+position: relative;
+animation-name: example; 
+
+animation-iteration-count: infinite;
+transform: rotate(25deg);
+}
+
+ek disawakata animation weemata
+@keyframes example{
+    from{ background-color: red;left: 0;top: 0;}
+    to{ background-color: blue;left: 800px; top: 300px; border-radius: 50%;}
+}
+
+@keyframes example{
+0%{background-color: red;left: 0;top: 0;}
+25%{background-color: rgb(81, 202, 81);left: 300px;top: 0;}
+50%{background-color: rgb(202, 81, 182);left: 300px;top: 300px;}
+75%{background-color: rgb(235, 222, 44);left: 0;top: 300px;}
+100%{background-color:red;left: 0;top: 0;}
+}  */
+
+.transition{
+
+width: 200px;
+height: 200px;
+background-color: red;
+position: relative;
+transition:  width 2s,height 2s,background-color 2s;
+}
+.transition:hover{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
